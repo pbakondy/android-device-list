@@ -37,7 +37,7 @@ function decodeRaw ( data ) {
   // $ file -I supported_devices.csv
   // supported_devices.csv: text/plain; charset=utf-16le
 
-  let buffer = Buffer.from( data, 'binary' );
+  let buffer = Buffer.from( data );
   return iconv.decode( buffer, 'utf-16le' );
 }
 
