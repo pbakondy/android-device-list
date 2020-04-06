@@ -7,8 +7,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "ava && npm run jscs && npm run lint",
-    "jscs": "jscs index.js build.js",
+    "test": "ava && npm run lint",
     "lint": "eslint index.js build.js",
     "build": "node ./build.js"
   },
@@ -27,8 +26,7 @@
     "axios": "^0.19.2",
     "babyparse": "^0.4.6",
     "eslint": "^6.8.0",
-    "iconv-lite": "^0.5.1",
-    "jscs": "^3.0.7"
+    "iconv-lite": "^0.5.1"
   },
   "repository": {
     "type": "git",
