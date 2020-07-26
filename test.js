@@ -1,5 +1,4 @@
-import test from 'ava';
-
+const test = require('ava');
 const devices = require( './index' );
 
 test( 'deviceList()', t => {
