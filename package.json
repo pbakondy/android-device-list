@@ -23,7 +23,7 @@
   ],
   "devDependencies": {
     "ava": "^3.10.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babyparse": "^0.4.6",
     "eslint": "^7.5.0",
     "iconv-lite": "^0.6.2"
